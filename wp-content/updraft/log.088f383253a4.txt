@@ -1,0 +1,301 @@
+0000.000 (0) Opened log file at time: Mon, 20 Feb 2023 02:42:03 +0000 on http://137.184.185.102
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.1.7-1ubuntu3.2 (apache2handler, Linux Hotel-Hidden-Oasis 5.19.0-23-generic #24-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 14 15:39:57 UTC 2022 x86_64) MySQL: 8.0.32-0ubuntu0.22.10.2 (max packet size=67108864) WPLANG: es_MX Server: Apache/2.4.54 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.7M | 22M) multisite: N openssl: OpenSSL 3.0.5 5 Jul 2022 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 20837 MB
+0000.017 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.025 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.042 (0) Set semaphore last lock (fd) time to 2023-02-20 02:42:03
+0000.046 (0) Semaphore lock (fd) complete
+0000.062 (0) Backup run: resumption=0, nonce=088f383253a4, file_nonce=088f383253a4 begun at=1676860923 (0s ago), job type=backup
+0000.073 (0) Scheduling a resumption (1) after 300 seconds (1676861223) in case this run gets aborted
+0000.123 (0) Checking if we have a zip executable available
+0000.136 (0) Creation of backups of directories: beginning
+0000.153 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.383 (0) Total entities for the zip file: 809 directories, 3897 files (0 skipped as non-modified), 85.7 MB
+0000.393 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.401 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.409 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.415 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.427 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.434 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.441 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.449 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.454 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 3897 files batched, 844 (844) added so far); re-opening (prior size: 0 KB)
+0002.902 (0) A useful amount of data was added after this amount of zip processing: 3.7 s (normalised: 3.7 s, rate: 6994.3 KB/s)
+0002.912 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.6619749069214, normalised_time=3.6601101138809, max_time=2.9061961174011, data points known=1, old_max_bytes=26214400, new_max_bytes=42973133)
+0002.926 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 900 files added (on-disk size: 7242 KB)
+0002.934 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1000 files added (on-disk size: 7242 KB)
+0002.941 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1100 files added (on-disk size: 7242 KB)
+0002.950 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1200 files added (on-disk size: 7242 KB)
+0002.961 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1300 files added (on-disk size: 7242 KB)
+0002.970 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1400 files added (on-disk size: 7242 KB)
+0002.976 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1500 files added (on-disk size: 7242 KB)
+0002.985 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1600 files added (on-disk size: 7242 KB)
+0002.994 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1700 files added (on-disk size: 7242 KB)
+0003.003 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1800 files added (on-disk size: 7242 KB)
+0003.010 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.8 MB, 3897 files batched, 1001 (1845) added so far); re-opening (prior size: 7242 KB)
+0004.838 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 1900 files added (on-disk size: 12475.7 KB)
+0004.846 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2000 files added (on-disk size: 12475.7 KB)
+0004.856 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2100 files added (on-disk size: 12475.7 KB)
+0004.864 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2200 files added (on-disk size: 12475.7 KB)
+0004.872 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2300 files added (on-disk size: 12475.7 KB)
+0004.880 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2400 files added (on-disk size: 12475.7 KB)
+0004.888 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2500 files added (on-disk size: 12475.7 KB)
+0004.897 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2600 files added (on-disk size: 12475.7 KB)
+0004.909 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2700 files added (on-disk size: 12475.7 KB)
+0004.918 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2800 files added (on-disk size: 12475.7 KB)
+0004.924 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (25.2 MB, 3897 files batched, 1001 (2846) added so far); re-opening (prior size: 12475.7 KB)
+0007.139 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 2900 files added (on-disk size: 19400.4 KB)
+0007.151 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3000 files added (on-disk size: 19400.4 KB)
+0007.159 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3100 files added (on-disk size: 19400.4 KB)
+0007.169 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3200 files added (on-disk size: 19400.4 KB)
+0007.180 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3300 files added (on-disk size: 19400.4 KB)
+0007.187 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3400 files added (on-disk size: 19400.4 KB)
+0007.195 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3500 files added (on-disk size: 19400.4 KB)
+0007.202 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3600 files added (on-disk size: 19400.4 KB)
+0007.209 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3700 files added (on-disk size: 19400.4 KB)
+0007.215 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.tmp: 3800 files added (on-disk size: 19400.4 KB)
+0007.219 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.6 MB, 3897 files batched, 1001 (3847) added so far); re-opening (prior size: 19400.4 KB)
+0009.370 (0) Creating zip file manifest (backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip.list-temp.tmp)
+0009.381 (0) Successfully created zip file manifest (size: 324610)
+0009.664 (0) Created plugins zip (0) - 27108.7 KB in 9.5 s (2852.9 KB/s) (sha1: 693ff51f811c27e7a5ceb3f0d4d89194f04a2017, sha256: e495846a1600695ad6533185359f012e72a39790ed4ae2739a529e290a1a4746)
+0009.679 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0009.683 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-bc3a364db558d09d2556f7710779d855)
+0010.245 (0) Google Drive: creating path: /UpdraftPlus
+0011.305 (0) Google Drive: quota usage: used=2632.5 MB, total=150937600 MB, available=150934967.5 MB
+0011.309 (0) Google Drive: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip: Attempting to upload to Google Drive (into folder id: 1n5MERjY1epHTnXU4Nj6Nu4oMF2qAZ4D5)
+0012.110 (0) Googledrive chunked upload: 3.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.5 / 24)
+0012.473 (0) Googledrive chunked upload: 11.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.5 / 24)
+0012.868 (0) Googledrive chunked upload: 26.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.5 / 24)
+0013.310 (0) Googledrive chunked upload: 56.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.5 / 24)
+0014.628 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0014.638 (0) Google Drive: OK: Archive backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip uploaded in 3.33 seconds
+0014.640 (0) Recording as successfully uploaded: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip
+0014.647 (0) Deleting local file: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip: OK
+0014.662 (0) Beginning creation of dump of themes (split every: 400 MB)
+0014.733 (0) Total entities for the zip file: 387 directories, 1107 files (0 skipped as non-modified), 37.7 MB
+0014.738 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.742 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0014.746 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0014.750 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0014.755 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0014.759 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0014.763 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0014.766 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0014.770 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0014.773 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0014.776 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (31.5 MB, 1107 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0017.045 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.tmp: 1100 files added (on-disk size: 12575.6 KB)
+0017.382 (0) Creating zip file manifest (backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip.list-temp.tmp)
+0017.389 (0) Successfully created zip file manifest (size: 90867)
+0017.568 (0) Created themes zip (0) - 18397 KB in 2.9 s (6348.5 KB/s) (sha1: 65549a18c7348dc878ed7f453850e19ee6296584, sha256: 99329ab1902f19774740ca257bdf7297452c46554734d52ada55804bc7251d35)
+0017.580 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0017.583 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-bc3a364db558d09d2556f7710779d855)
+0017.822 (0) Google Drive: quota usage: used=2659 MB, total=150937600 MB, available=150934941 MB
+0017.825 (0) Google Drive: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip: Attempting to upload to Google Drive (into folder id: 1n5MERjY1epHTnXU4Nj6Nu4oMF2qAZ4D5)
+0018.656 (0) Googledrive chunked upload: 5.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.1 / 24)
+0019.112 (0) Googledrive chunked upload: 16.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.1 / 24)
+0019.512 (0) Googledrive chunked upload: 39 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.1 / 24)
+0019.951 (0) Googledrive chunked upload: 83.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.1 / 24)
+0021.351 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0021.363 (0) Google Drive: OK: Archive backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip uploaded in 3.54 seconds
+0021.365 (0) Recording as successfully uploaded: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip
+0021.372 (0) Deleting local file: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip: OK
+0021.383 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0021.386 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0021.389 (0) finding files: wpforms: adding to list (1)
+0021.390 (0) finding files: 2023: adding to list (2)
+0021.393 (0) finding files: elementor: adding to list (3)
+0021.395 (0) finding files: essential-addons-elementor: adding to list (4)
+0021.398 (0) finding files: astra-sites: adding to list (5)
+0021.401 (0) finding files: 2021: adding to list (6)
+0021.403 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0021.416 (0) Total entities for the zip file: 11 directories, 216 files (0 skipped as non-modified), 12.2 MB
+0021.424 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0021.429 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0021.663 (0) Creating zip file manifest (backup_2023-02-20-0242_World_of_Oasis_088f383253a4-uploads.zip.list-temp.tmp)
+0021.667 (0) Successfully created zip file manifest (size: 11753)
+0021.784 (0) Created uploads zip (0) - 10287.8 KB in 0.4 s (27545.7 KB/s) (sha1: 652d71ec1910f5d5eea9db8c66c6217fc957f8ad, sha256: 3af1132051420d18ca6eef1f30b8032a9ddee71ab3e452a8bb79020e2a2587e2)
+0021.799 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0021.802 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-bc3a364db558d09d2556f7710779d855)
+0022.035 (0) Google Drive: quota usage: used=2677 MB, total=150937600 MB, available=150934923 MB
+0022.040 (0) Google Drive: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-uploads.zip: Attempting to upload to Google Drive (into folder id: 1n5MERjY1epHTnXU4Nj6Nu4oMF2qAZ4D5)
+0022.850 (0) Googledrive chunked upload: 10 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19 / 24)
+0023.291 (0) Googledrive chunked upload: 29.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19 / 24)
+0023.778 (0) Googledrive chunked upload: 69.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19 / 24)
+0025.117 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0025.135 (0) Google Drive: OK: Archive backup_2023-02-20-0242_World_of_Oasis_088f383253a4-uploads.zip uploaded in 3.09 seconds
+0025.139 (0) Recording as successfully uploaded: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-uploads.zip
+0025.152 (0) Deleting local file: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-uploads.zip: OK
+0025.171 (0) Beginning backup of other directories found in the content directory (index: 0)
+0025.175 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0025.178 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0025.181 (0) finding files: updraft: skipping: this is the updraft directory
+0025.183 (0) finding files: mu-plugins: adding to list (1)
+0025.186 (0) finding files: index.php: adding to list (2)
+0025.190 (0) finding files: plugins: skipping: this is the plugins directory
+0025.193 (0) finding files: uploads: skipping: this is the uploads directory
+0025.196 (0) finding files: languages: adding to list (3)
+0025.199 (0) finding files: themes: skipping: this is the themes directory
+0025.202 (0) finding files: upgrade: skipping: excluded by options
+0025.214 (0) Total entities for the zip file: 4 directories, 104 files (0 skipped as non-modified), 4.9 MB
+0025.219 (0) Zip: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0025.855 (0) Creating zip file manifest (backup_2023-02-20-0242_World_of_Oasis_088f383253a4-others.zip.list-temp.tmp)
+0025.859 (0) Successfully created zip file manifest (size: 6631)
+0025.898 (0) Created others zip (0) - 1356.7 KB in 0.7 s (1972.2 KB/s) (sha1: 80d593d89b740b130037a32343fcb238400e8e1b, sha256: 16f7133a48799f09e91c3a41f75b9e44e646c5a1788f97119e92f0c5341942c3)
+0025.909 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.913 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-bc3a364db558d09d2556f7710779d855)
+0026.228 (0) Google Drive: quota usage: used=2687 MB, total=150937600 MB, available=150934913 MB
+0026.231 (0) Google Drive: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-others.zip: Attempting to upload to Google Drive (into folder id: 1n5MERjY1epHTnXU4Nj6Nu4oMF2qAZ4D5)
+0027.030 (0) Googledrive chunked upload: 75.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.9 / 24)
+0028.243 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0028.253 (0) Google Drive: OK: Archive backup_2023-02-20-0242_World_of_Oasis_088f383253a4-others.zip uploaded in 2.02 seconds
+0028.255 (0) Recording as successfully uploaded: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-others.zip
+0028.262 (0) Deleting local file: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-others.zip: OK
+0028.281 (0) Saving backup status to database (elements: 8)
+0028.286 (0) Beginning creation of database dump (WordPress DB)
+0028.288 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0028.295 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0028.390 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1538 bytes total)
+0028.393 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0028.459 (0) Table wp_options: Total expected rows (via COUNT): 405
+0028.461 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.673 (0) Table wp_options: Rows added in this batch (next record: 1719): 400 (uncompressed bytes in this segment=7721190) in 0.27 seconds
+0028.694 (0) Table wp_options: finishing file(s) (2, 859 KB)
+0028.724 (0) Table wp_users: Total expected rows (via COUNT): 2
+0028.728 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.734 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1565) in 0.03 seconds
+0028.746 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0028.777 (0) Table wp_usermeta: Total expected rows (via COUNT): 43
+0028.779 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.788 (0) Table wp_usermeta: Rows added in this batch (next record: 43): 43 (uncompressed bytes in this segment=3805) in 0.03 seconds
+0028.812 (0) Table wp_usermeta: finishing file(s) (2, 1.9 KB)
+0028.845 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 13
+0028.848 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.854 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 25): 13 (uncompressed bytes in this segment=7629) in 0.03 seconds
+0028.868 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0028.880 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0028.887 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.01 seconds
+0028.897 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0028.922 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0028.925 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.933 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=719) in 0.03 seconds
+0028.944 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0028.976 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 25
+0028.978 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.985 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=2904) in 0.03 seconds
+0028.996 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0029.014 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0029.021 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.02 seconds
+0029.046 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0029.073 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0029.076 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.085 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2160) in 0.03 seconds
+0029.097 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0029.110 (0) Table wp_links: Total expected rows (via COUNT): 0
+0029.117 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+0029.130 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0029.203 (0) Table wp_postmeta: Total expected rows (via COUNT): 2309
+0029.500 (0) Table wp_postmeta: Rows added in this batch (next record: 2833): 2309 (uncompressed bytes in this segment=11766300) in 0.36 seconds
+0029.523 (0) Table wp_postmeta: finishing file(s) (2, 1243.5 KB)
+0029.571 (0) Table wp_posts: Total expected rows (via COUNT): 281
+0029.575 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.620 (0) Table wp_posts: Rows added in this batch (next record: 636): 281 (uncompressed bytes in this segment=2031115) in 0.08 seconds
+0029.642 (0) Table wp_posts: finishing file(s) (2, 110.4 KB)
+0029.656 (0) Table wp_term_relationships: Total expected rows (approximate): 16
+0029.665 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 23 (uncompressed bytes in this segment=997) in 0.01 seconds
+0029.680 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0029.716 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 8
+0029.720 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.730 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1127) in 0.04 seconds
+0029.755 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0029.793 (0) Table wp_termmeta: Total expected rows (via COUNT): 4
+0029.799 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.804 (0) Table wp_termmeta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=876) in 0.04 seconds
+0029.824 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0029.854 (0) Table wp_terms: Total expected rows (via COUNT): 8
+0029.856 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.860 (0) Table wp_terms: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=996) in 0.03 seconds
+0029.874 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0029.907 (0) Table wp_e_events: Total expected rows (via COUNT): 13
+0029.911 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.915 (0) Table wp_e_events: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=3769) in 0.03 seconds
+0029.934 (0) Table wp_e_events: finishing file(s) (2, 0.8 KB)
+0029.972 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0029.975 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.978 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=1044) in 0.03 seconds
+0030.001 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0030.006 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wp-content/updraft/backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db.gz (line 1924, wp-content/plugins/updraftplus/backup.php)
+0030.012 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_options.table.tmpr1720.gz (1/18/fopen): adding to final database dump
+0030.024 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_options.table.gz (2/18/fopen): adding to final database dump
+0030.026 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_users.table.tmpr3.gz (3/18/fopen): adding to final database dump
+0030.029 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_users.table.gz (4/18/fopen): adding to final database dump
+0030.031 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_usermeta.table.tmpr44.gz (5/18/fopen): adding to final database dump
+0030.034 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_usermeta.table.gz (6/18/fopen): adding to final database dump
+0030.036 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_actionscheduler_actions.table.tmpr26.gz (7/18/fopen): adding to final database dump
+0030.038 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_actionscheduler_actions.table.gz (8/18/fopen): adding to final database dump
+0030.039 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/18/fopen): adding to final database dump
+0030.043 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_actionscheduler_claims.table.gz (10/18/fopen): adding to final database dump
+0030.045 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/18/fopen): adding to final database dump
+0030.048 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_actionscheduler_groups.table.gz (12/18/fopen): adding to final database dump
+0030.050 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_actionscheduler_logs.table.tmpr26.gz (13/18/fopen): adding to final database dump
+0030.053 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_actionscheduler_logs.table.gz (14/18/fopen): adding to final database dump
+0030.054 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_commentmeta.table.tmpr0.gz (15/18/fopen): adding to final database dump
+0030.058 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_commentmeta.table.gz (16/18/fopen): adding to final database dump
+0030.060 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_comments.table.tmpr2.gz (17/18/fopen): adding to final database dump
+0030.062 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_comments.table.gz (18/18/fopen): adding to final database dump
+0030.064 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_links.table.tmpr0.gz (19/18/fopen): adding to final database dump
+0030.066 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_links.table.gz (20/18/fopen): adding to final database dump
+0030.068 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_postmeta.table.tmpr2834.gz (21/18/fopen): adding to final database dump
+0030.086 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_postmeta.table.gz (22/18/fopen): adding to final database dump
+0030.089 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_posts.table.tmpr637.gz (23/18/fopen): adding to final database dump
+0030.092 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_posts.table.gz (24/18/fopen): adding to final database dump
+0030.095 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_term_relationships.table.tmpr100001.gz (25/18/fopen): adding to final database dump
+0030.096 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_term_relationships.table.gz (26/18/fopen): adding to final database dump
+0030.098 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_term_taxonomy.table.tmpr9.gz (27/18/fopen): adding to final database dump
+0030.101 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_term_taxonomy.table.gz (28/18/fopen): adding to final database dump
+0030.103 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_termmeta.table.tmpr5.gz (29/18/fopen): adding to final database dump
+0030.105 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_termmeta.table.gz (30/18/fopen): adding to final database dump
+0030.108 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_terms.table.tmpr9.gz (31/18/fopen): adding to final database dump
+0030.109 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_terms.table.gz (32/18/fopen): adding to final database dump
+0030.111 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_e_events.table.tmpr14.gz (33/18/fopen): adding to final database dump
+0030.114 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_e_events.table.gz (34/18/fopen): adding to final database dump
+0030.116 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (35/18/fopen): adding to final database dump
+0030.117 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db-table-wp_wpforms_tasks_meta.table.gz (36/18/fopen): adding to final database dump
+0030.132 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db.gz: finished writing out complete database file (2223.2 KB)
+0030.172 (0) Total database tables backed up: 18 (backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db.gz, size: 2276689, sha1: ef5a13d2d33c143c07f735030c4e33d38ba353f8, sha256: b85f029698477984cab05c60d52a07520d70021bf99b24ad5b32acf70cb0df3f)
+0030.184 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2864, wp-content/plugins/updraftplus/backup.php)
+0030.191 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-plugins.zip: plugins: This file has already been successfully uploaded
+0030.194 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-themes.zip: themes: This file has already been successfully uploaded
+0030.196 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-uploads.zip: uploads: This file has already been successfully uploaded
+0030.198 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-others.zip: others: This file has already been successfully uploaded
+0030.199 (0) backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0030.202 (0) Saving backup history. Total backup size: 58 MB
+0030.208 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0030.217 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0030.232 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-bc3a364db558d09d2556f7710779d855)
+0030.498 (0) Google Drive: quota usage: used=2688.4 MB, total=150937600 MB, available=150934911.6 MB
+0030.501 (0) Google Drive: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db.gz: Attempting to upload to Google Drive (into folder id: 1n5MERjY1epHTnXU4Nj6Nu4oMF2qAZ4D5)
+0031.259 (0) Googledrive chunked upload: 46.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.9 / 36)
+0032.610 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0032.620 (0) Google Drive: OK: Archive backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db.gz uploaded in 2.12 seconds
+0032.623 (0) Recording as successfully uploaded: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db.gz
+0032.631 (0) Deleting local file: backup_2023-02-20-0242_World_of_Oasis_088f383253a4-db.gz: OK
+0032.639 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0032.642 (0) Number of backup sets in history: 1; groups (db): 1
+0032.644 (0) Examining (for databases) backup set with group_id=0, nonce=088f383253a4, datestamp=1676860923 (Feb 20 2023 02:42:03)
+0032.646 (0) This backup set is the backup set just made, so will not be deleted.
+0032.646 (0) Number of backup sets in history: 1; groups (files): 1
+0032.648 (0) Examining (for files) backup set with nonce=088f383253a4, datestamp=1676860923 (Feb 20 2023 02:42:03)
+0032.648 (0) This backup set is the backup set just made, so will not be deleted.
+0032.650 (0) This backup set is the backup set just made, so will not be deleted.
+0032.650 (0) This backup set is the backup set just made, so will not be deleted.
+0032.651 (0) This backup set is the backup set just made, so will not be deleted.
+0032.651 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.653 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0032.660 (0) Resume backup (088f383253a4, 0): finish run
+0032.669 (0) Decremented the semaphore (fd) by 1
+0032.674 (0) Semaphore (fd) unlocked
+0032.676 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0032.686 (0) The backup apparently succeeded and is now complete
+0032.689 (0) No email will/can be sent - the user has not configured an email address.
+0032.691 (0) El respaldo parece haber tenido éxito y ahora está completado
