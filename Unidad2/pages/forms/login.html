@@ -48,35 +48,40 @@
                   <!-- /.card-header -->
                   <!-- form start -->
                   <div class="card-body">
-                    <div class="form-group">
-                      <label for="inputEmail3">User (*)</label>
-                      <input
-                        type="text"
-                        name="user"
-                        class="form-control"
-                        id="user"
-                        placeholder="Enter user"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="inputPassword3">Password (*)</label>
-                      <input
-                        type="password"
-                        name="password"
-                        class="form-control"
-                        id="password"
-                        placeholder="Password"
-                      />
-                    </div>
+                    <form action="" name="form">
+                      <div class="form-group">
+                        <label for="inputEmail3">User (*)</label>
+                        <input
+                          type="text"
+                          name="user"
+                          class="form-control"
+                          id="user"
+                          placeholder="Enter user"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword3">Password (*)</label>
+                        <input
+                          type="password"
+                          name="password"
+                          class="form-control"
+                          id="password"
+                          placeholder="Password"
+                        />
+                      </div>
+                    </form>
                   </div>
                   <!-- /.card-body -->
                   <div class="card-footer">
                     <button
-                      type="submit"
-                      class="btn btn-primary"
-                      onclick="validate()"
+                      type="button"
+                      name="boton"
+                      class="btn btn-primary btn-block"
+                      data-toggle="modal"
+                      data-target="#modal"
+                      onClick="verificacion()"
                     >
-                      Submit
+                      Iniciar sesión
                     </button>
                   </div>
                 </div>
@@ -121,6 +126,49 @@
       >
       All rights reserved.
     </footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modal"
+      name="modaldatos"
+      method="POST"
+      action=""
+    >
+      <div class="modal-dialog">
+        <div class="modal-content bg-primary">
+          <div class="modal-header">
+            <h4 class="modal-title">ALGO SALIÓ MAL</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <input
+              class="form-control"
+              id="text"
+              rows="3"
+              disabled
+            ></input>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End modal -->
 
     <!-- jQuery -->
     <script src="../../plugins/jquery/jquery.min.js"></script>
