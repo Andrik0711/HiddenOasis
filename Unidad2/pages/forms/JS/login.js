@@ -28,7 +28,7 @@ function verificacion() {
 
     // Condicion para ingresar ambas deben ser iguales
     if (user == usuario && pass == contrasena) {
-        window.location.href = "/pages/forms/Menu.html";
+        window.location.href = "Unidad2/pages/forms/Menu.html";
     } else {
         document.getElementById('text').value = ("Usuario o contraseña no validos");
         return false;
