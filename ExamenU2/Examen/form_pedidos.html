@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedido de productos</title>
+    <!-- Agregamos los estilos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Agregamos nuestro estilo personalizado -->
+    <style type="text/css">
+      body {
+        background-color: #ffffff;
+      }
+      .form-login {
+        margin-top: 50px;
+      }
+    </style>
+    <link rel="stylesheet" href="./syleSheetViewProducts.css" />
+  </head>
+  <body>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/Examen/menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Examen/vista_productos.html"
+                >Listado de productos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Examen/form_pedidos.html"
+                >Formulario de pedido</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Examen/tabla_productos.html"
+                >Tabla de productos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Examen/form_vendedor.html"
+                >Formulario de vendedores</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Examen/login_global.html"
+                >Cerrar Sesion</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End Menu -->
+
+      <!-- Form campos -->
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Agregar producto</h1>
+      <form id="productForm">
+        <div class="mb-3">
+          <label for="productImage" class="form-label">Imagen</label>
+          <input
+            type="text"
+            class="form-control"
+            id="productImage"
+            name="productImage"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="productName" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="productName"
+            name="productName"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="productDesc" class="form-label">Descripción</label>
+          <input
+            type="text"
+            class="form-control"
+            id="productDesc"
+            name="productDesc"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="productPrice" class="form-label">Precio</label>
+          <input
+            type="number"
+            class="form-control"
+            id="productPrice"
+            name="productPrice"
+            step="0.01"
+            min="0"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="productDate" class="form-label"
+            >Fecha de entrega estimada</label
+          >
+          <input
+            type="date"
+            class="form-control"
+            id="productDate"
+            name="productDate"
+          />
+        </div>
+
+      </form>
+      <!-- End form campos -->
+      <!-- Boton agregar -->
+      <div class="text-center">
+        <button type="submit" onclick="pedirProducto()">Agregar</button>
+      </div>
+      <!-- End boton agregar -->
+    </div>
+    <div class="fondo_transparente">
+        <div class="modal">
+            <div class="modal_cerrar">
+                <span>x</span>
+            </div>
+            <div class="modal_titulo">Tu producto ha sido pedido!</div>
+            <div class="modal_mensaje" id="content-modal"></div>
+            <div class="modal_botones">
+                <button class="boton" onclick="cerrarModal()">ACEPTAR</a>
+            </div>
+        </div>
+    </div> 
+    <div class="fondo_transparenteError">
+        <div class="modal">
+            <div class="modal_cerrar">
+                <span>x</span>
+            </div>
+            <div class="modal_titulo">Campos vacios!</div>
+            <div class="modal_mensaje">
+                <p>Porfavor, llena todos los campos</p> </div>
+            <div class="modal_botones">
+                <button class="boton" onclick="cerrarModalError()">ACEPTAR</a>
+            </div>
+        </div>
+    </div>   
+
+    
+    <script src="/Examen/js/form_pedidos.js"></script>
+  </body>
+</html>

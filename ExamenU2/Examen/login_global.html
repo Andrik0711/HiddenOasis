@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de acceso</title>
+    <!-- Agregamos los estilos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Agregamos nuestro estilo personalizado -->
+    <style type="text/css">
+      body {
+        background-color: #ffffff;
+      }
+      .form-login {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 offset-md-4 form-login">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="text-center">Acceso de usuarios</h4>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="usuario">Usuario</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="usuario"
+                    placeholder="Ingrese su usuario"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="contrasena">Contraseña</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="contrasena"
+                    placeholder="Ingrese su contraseña"
+                  />
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                  Ingresar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agregamos los scripts de Bootstrap y nuestro script personalizado -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="/Examen/js/login_global.js"></script>
+
+    <!-- Creamos un modal de error para mostrar en caso de que los datos sean incorrectos -->
+    <div
+      class="modal fade"
+      id="modalError"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalErrorLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalErrorLabel">Error de acceso</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Cerrar"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Los datos ingresados son incorrectos. Por favor, inténtelo
+              nuevamente.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

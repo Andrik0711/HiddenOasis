@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tabla</title>
+
+    <!-- Agregamos los estilos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Agregamos nuestro estilo personalizado -->
+    <style type="text/css">
+      body {
+        background-color: #ffffff;
+      }
+      .form-login {
+        margin-top: 50px;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./syleSheetViewProducts.css" />
+  </head>
+  <body class="hold-transition sidebar-mini" id="background">
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/Examen/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Examen/vista_productos.html"
+              >Listado de productos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Examen/form_pedidos.html"
+              >Formulario de pedido</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Examen/tabla_productos.html"
+              >Tabla de productos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Examen/form_vendedor.html"
+              >Formulario de vendedores</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Examen/login_global.html"
+              >Cerrar Sesion</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Fin Menu -->
+
+    <!-- Main content -->
+    <div class="container-fluid">
+      <section class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <h1>Tabla de productos</h1>
+            </div>
+          </div>
+        </div>
+        <!-- /.container-fluid -->
+      </section>
+
+      <!-- Boton de ver tabla -->
+      <div class="buttonsDiv">
+        <td>
+          <button
+            type="button"
+            style="
+              background-color: rgb(255, 111, 0);
+              width: fit-content;
+              border-color: rgb(0, 0, 0);
+              margin: 0 40px 0 0;
+            "
+            onclick="verTabla()"
+            class="btn btn-block btn-primary"
+          >
+            Ver Tabla
+          </button>
+        </td>
+      </div>
+      <!-- End boton de tabla -->
+
+      <div class="divProductsContent" id="divProductsContent"></div>
+
+      <div id="divTableDictionary"></div>
+
+      <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">User saved:</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              style="background-color: darkorchid; border-color: darkorchid"
+              data-dismiss="modal"
+            >
+              OK!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agregamos los scripts de Bootstrap y nuestro script personalizado -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="/Examen/js/tabla_productos.js"></script>
+    <!-- Page specific script -->
+    <script>
+      $(function () {
+        bsCustomFileInput.init();
+      });
+    </script>
+  </body>
+</html>
