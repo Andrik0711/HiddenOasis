@@ -8,7 +8,7 @@ const products = [
         key: 1,
         section: 'Balones',
         price: 199,
-        imgPath: '/Examen/js/images/balon1.png',
+        imgPath: '/ExamenU2/Examen/js/images/balon1.png',
         description: 'Balon de futbol edicion normal, para uso en campos profesionales.'
     },
     {
@@ -16,7 +16,7 @@ const products = [
         section: 'Balones',
         price: 200,
         key: 2,
-        imgPath: '/Examen/js/images/balon2.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/balon2.jpg',
         description: 'Balon de futbol edicion especial Qatar 2022'
     },
     {
@@ -24,7 +24,7 @@ const products = [
         section: 'Tachones',
         price: 199,
         key: 3,
-        imgPath: '/Examen/js/images/tachones1.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/tachones1.jpg',
         description: 'Tachon nike mercurial color salmon edicion profesional'
     },
     {
@@ -32,7 +32,7 @@ const products = [
         section: 'Tachones',
         price: 200,
         key: 4,
-        imgPath: '/Examen/js/images/tachones2.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/tachones2.jpg',
         description: 'Tachon puma edicion retro, color amarillo excelente para campos profesionales'
     },
     {
@@ -40,7 +40,7 @@ const products = [
         section: 'Playeras',
         price: 150,
         key: 5,
-        imgPath: '/Examen/js/images/playera1.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/playera1.jpg',
         description: 'Playera Edicion Local 2019'
     },
     {
@@ -48,7 +48,7 @@ const products = [
         section: 'Playeras',
         price: 200,
         key: 6,
-        imgPath: '/Examen/js/images/playera2.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/playera2.jpg',
         description: 'Playera edicion especial para el apertura 2022'
     },
     {
@@ -56,7 +56,7 @@ const products = [
         section: 'Shorts',
         price: 150,
         key: 7,
-        imgPath: '/Examen/js/images/short1.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/short1.jpg',
         description: 'Short Chivas Vistante edicion 2020'
     },
     {
@@ -64,7 +64,7 @@ const products = [
         section: 'Shorts',
         price: 200,
         key: 8,
-        imgPath: '/Examen/js/images/short2.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/short2.jpg',
         description: 'Short Chivas Local edicion 2022'
     },
     {
@@ -72,7 +72,7 @@ const products = [
         section: 'Espinilleras',
         price: 150,
         key: 9,
-        imgPath: '/Examen/js/images/espinilleras1.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/espinilleras1.jpg',
         description: 'Espinillera Edicion Messi color verde'
     },
     {
@@ -80,7 +80,7 @@ const products = [
         section: 'Espinilleras',
         price: 200,
         key: 10,
-        imgPath: '/Examen/js/images/espinilleras2.jpg',
+        imgPath: '/ExamenU2/Examen/js/images/espinilleras2.jpg',
         description: 'Espinillera adidad verde con azul'
     },
 ];
